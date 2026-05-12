@@ -20,6 +20,7 @@ git merge --no-ff feature/nombre
 # Ver historial gráfico
 git log --oneline --graph --all
 
+
 Scripts incluidos
 •	scripts/sistema.sh — backup, limpieza y reporte del sistema
 •	scripts/verificar-permisos.sh — auditoría de usuario devops-deploy
