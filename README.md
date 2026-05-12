@@ -10,7 +10,8 @@ Demostracion del flujo Gitflow aplicado a scripts de administración Linux.
 | `hotfix/*` | Correcciones urgentes | `main` | `main` + `develop` |
 
 ## Comandos esenciales
-```bash
+bash
+
 # Nueva feature
 git checkout develop && git checkout -b feature/nombre
 
@@ -21,7 +22,7 @@ git merge --no-ff feature/nombre
 git log --oneline --graph --all
 
 
-Scripts incluidos
+## Scripts incluidos
 •	scripts/sistema.sh — backup, limpieza y reporte del sistema
 •	scripts/verificar-permisos.sh — auditoría de usuario devops-deploy
 •	scripts/fix-log-perms.sh — hotfix de permisos (v1.1)
