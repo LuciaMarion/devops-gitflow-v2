@@ -12,21 +12,22 @@ Demostracion del flujo Gitflow aplicado a scripts de administración Linux.
 ## Comandos esenciales
 bash
 
-# Nueva feature
+### Nueva feature
 git checkout develop && git checkout -b feature/nombre
 
-# Merge con historial (no fast-forward)
+### Merge con historial (no fast-forward)
 git merge --no-ff feature/nombre
 
-# Ver historial gráfico
+### Ver historial gráfico
 git log --oneline --graph --all
 
 
 ## Scripts incluidos
-•	scripts/sistema.sh — backup, limpieza y reporte del sistema
-•	scripts/verificar-permisos.sh — auditoría de usuario devops-deploy
-•	scripts/fix-log-perms.sh — hotfix de permisos (v1.1)
-Versiones
-•	v1.0 — release inicial con scripts de TP 1 y 2
-•	v1.1 — hotfix permisos de logs EOF
+•	  scripts/sistema.sh — backup, limpieza y reporte del sistema
+•	  scripts/verificar-permisos.sh — auditoría de usuario devops-deploy
+•	  scripts/fix-log-perms.sh — hotfix de permisos (v1.1)
+
+## Versiones
+•	  v1.0 — release inicial con scripts de TP 1 y 2
+•	  v1.1 — hotfix permisos de logs EOF
 
